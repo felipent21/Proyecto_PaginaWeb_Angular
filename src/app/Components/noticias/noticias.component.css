@@ -1,0 +1,25 @@
+.list-group{
+
+margin-top: 2px;
+
+
+}
+
+.list-group-item {
+    justify-content: space-between 20px;
+    margin-top: 28px;
+    height: 150px;   
+
+}
+
+#l1{
+background-color: crimson;
+}
+
+#l2{
+    background-color: rgb(20, 220, 87);
+    }
+
+ #l3{
+ background-color: rgb(220, 140, 20);
+}    

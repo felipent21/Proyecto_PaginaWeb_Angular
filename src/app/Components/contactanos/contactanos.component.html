@@ -1,0 +1,43 @@
+<div class = 'container'>
+<form>
+    <div class="form-row">
+      <div class="form-group ">
+        <label for="inputEmail4">NOMBRE</label>
+        <input type="text" class="form-control" id="inputNombre" placeholder="XXXXXXXXXXXXX">
+      </div>
+      <div class="form-group ">
+        <label for="inputPassword4">IDENTIFICACION</label>
+        <input type="text" class="form-control" id="inputdentificacion" placeholder="000000000000">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">DIRECCION</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Calle # ">
+    </div>    
+    <div class="form-group col-md-4">
+        <label for="inputState">CIUDAD</label>
+        <select id="inputState" class="form-control">
+          <option selected>SELECCIONA</option>
+          <option value="1">CALI</option>
+          <option value="2">BARRANQUILLA</option>
+          <option value="3">BOGOTA</option>
+        </select>
+      </div>       
+    <div class="form-group">
+      <div class="form-check mt-4">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Politicas de privacidad
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">PEDIR</button>
+  </form>
+</div>
+
+<div class="mapa">
+<google-map            
+            [center]="center"
+            [zoom]="zoom">
+  </google-map>
+</div>

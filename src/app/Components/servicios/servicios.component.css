@@ -1,0 +1,36 @@
+.card1{
+    
+    background-color: rgb(235, 135, 143);
+    height: 200px;
+    text-align: justify;
+    font-size:150%;
+    margin-top: 20px;
+    
+  }
+  .card2{
+    
+    background-color: rgb(135, 182, 235);
+    height: 200px;
+    text-align: justify;
+    font-size:150%;
+    margin-top: 20px;
+    
+  }
+  .card3{
+    
+    background-color: rgb(135, 235, 188);
+    height: 200px;
+    text-align: justify;
+    font-size:150%;
+    margin-top: 20px;
+    
+  }
+  .card4{
+    
+    background-color: rgb(235, 233, 135);
+    height: 200px;
+    text-align: justify;
+    font-size:150%;
+    margin-top: 20px;
+    
+  }
