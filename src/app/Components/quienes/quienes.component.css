@@ -1,19 +1,18 @@
 .slide{
     margin-top: 60px;  
     margin-left: 200px; 
-   
-   }
-   
-.slide{   
-     height: 300px;
-     width: 800px; 
-       
+    height: 300px;
+    width: 800px; 
+ 
    
    }
 
    .d-block{
     height: 400px;
     width: 800px; 
+    display: flex;    
+    flex-wrap: wrap;
+
     
    }
 
