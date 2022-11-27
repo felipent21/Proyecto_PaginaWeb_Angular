@@ -1,27 +1,31 @@
+.col-3{
 
+  height: 400px;
+  text-align: justify;
+  font-size:120%;
+  margin-top: 40px;
+  margin-right: 40px;
+  width: 300px;
+  justify-content:  space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5m;
+
+
+}
 
 
 #a{
     
     background-color: skyblue;
-    height: 400px;
-    text-align: justify;
-    font-size:120%;
-    margin-top: 40px;
-    margin-right: 40px;
-    width: 300px;
+   
     
   }
 
   #b{
     
     background-color: rgb(233, 235, 135);
-    height: 400px;
-    text-align: justify;
-    font-size:120%;
-    margin-top: 40px;
-    margin-right: 40px;
-    width: 300px;
+    
     
   }
 
@@ -29,11 +33,7 @@
   #c{
     
     background-color: rgb(235, 135, 213);
-    height: 400px;
-    text-align: justify;
-    font-size:120%;
-    margin-top: 40px;
-    width: 300px;
+    
   
   }
 

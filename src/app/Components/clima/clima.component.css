@@ -1,11 +1,37 @@
 .card-body{
     
     text-align: justify;
+    justify-content:  space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5m;
 }
 
 .card-img-top{
     width: 300px;
     height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
     
+    
+
+}
+
+.card{
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-evenly;
+    gap: 3.5m;
+
+
+}
+
+.card-text{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 
 }
