@@ -8,7 +8,10 @@ margin-top: 2px;
 .list-group-item {
     justify-content: space-between 20px;
     margin-top: 28px;
-    height: 150px;   
+    height: 150px;     
+     display: flex;
+     flex-wrap: wrap;
+     gap: 3.5m; 
 
 }
 
