@@ -4,7 +4,9 @@
     align-items:  flex-end;
     background-color: #0059be;
     width: 155px;
-    float:right
+    float:right;
+    flex-wrap: wrap;    
+    justify-content: space-between;
   }
 
   .flex-container > a {
@@ -14,4 +16,25 @@
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+  }
+
+  #sidevar{
+  display: flex;
+  flex-wrap: wrap;  
+  align-items: center;
+
+  }
+
+  #sidebar-nav{
+
+    display: flex;
+    flex-wrap: wrap;    
+    
+  }
+
+  .row{
+
+    display: flex;
+    flex-wrap: wrap; 
+    
   }
