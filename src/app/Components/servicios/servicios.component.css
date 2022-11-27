@@ -54,3 +54,8 @@
 
     
   }
+
+  .card-text{
+    display: flex;
+    flex-wrap: wrap;
+  }
